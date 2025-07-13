@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default function Login() {
   const handleClick = async () => {
     const client_id = "5cdad4151e8c4846b02c865bf6e6c0e9";
-    const redirect_uri = "https://localhost:3000/";
+    const redirect_uri = "https://muscify-spotify-clone.vercel.app/";
     const api_uri = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-private",
